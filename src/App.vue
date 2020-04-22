@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
+      <router-link to="/">Modal</router-link> |
       <router-link to="/about">About</router-link>
     </div>
     <router-view/>
@@ -56,5 +56,16 @@ button {
   padding: 10px;
   margin: 0 auto;
   margin-top: 20px;
+}
+
+/*** TRANSITIONS ***/
+.fade-enter,
+.fade-leave-to{
+  opacity: 0;
+}
+
+.fade-enter-active,
+.fade-leave-active{
+  transition: opacity 0.5s ease-out;
 }
 </style>
