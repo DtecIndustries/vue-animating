@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Modal from '../views/Modal.vue'
-import About from '../views/About.vue'
+import List from '../views/List.vue'
 
 Vue.use(VueRouter)
 
@@ -12,9 +12,9 @@ Vue.use(VueRouter)
     component: Modal
   },
   {
-    path: '/about',
-    name: 'About',
-    component: About
+    path: '/list',
+    name: 'List',
+    component: List
   }
 ]
 
