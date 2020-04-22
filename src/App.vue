@@ -85,4 +85,12 @@ button {
   transform: translateX(-20px);
   opacity: 0;
 }
+
+.slide-up-enter{
+  transform: translateY(10px);
+}
+
+.slide-up-enter-active{
+  transition: all 0.2s ease;
+}
 </style>
