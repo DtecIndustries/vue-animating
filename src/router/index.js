@@ -4,6 +4,7 @@ import Modal from '../views/Modal.vue'
 import List from '../views/List.vue'
 import Drawer from '../views/Drawer.vue'
 import Simple from '../views/Simple.vue'
+import Stagger from '../views/Stagger.vue'
 
 Vue.use(VueRouter)
 
@@ -27,6 +28,11 @@ Vue.use(VueRouter)
     path: '/simple',
     name: 'Simple',
     component: Simple
+  },
+  {
+    path: '/stagger',
+    name: 'Stagger',
+    component: Stagger
   }
 ]
 
