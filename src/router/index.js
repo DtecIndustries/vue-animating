@@ -7,6 +7,7 @@ import Simple from '../views/Simple.vue'
 import Stagger from '../views/Stagger.vue'
 import State from '../views/State.vue'
 import Timeline from '../views/Timeline.vue'
+import Master from '../views/Master.vue'
 
 Vue.use(VueRouter)
 
@@ -45,6 +46,11 @@ Vue.use(VueRouter)
     path: '/timeline',
     name: 'Timeline',
     component: Timeline
+  },
+  {
+    path: '/master',
+    name: 'Master',
+    component: Master
   }
 ]
 
