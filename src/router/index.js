@@ -6,6 +6,7 @@ import Drawer from '../views/Drawer.vue'
 import Simple from '../views/Simple.vue'
 import Stagger from '../views/Stagger.vue'
 import State from '../views/State.vue'
+import Timeline from '../views/Timeline.vue'
 
 Vue.use(VueRouter)
 
@@ -39,6 +40,11 @@ Vue.use(VueRouter)
     path: '/state',
     name: 'State',
     component: State
+  },
+  {
+    path: '/timeline',
+    name: 'Timeline',
+    component: Timeline
   }
 ]
 
