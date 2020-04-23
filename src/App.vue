@@ -3,7 +3,8 @@
     <div id="nav">
       <router-link to="/">Modal</router-link> |
       <router-link to="/list">List</router-link> |
-      <router-link to="/drawer">Drawer</router-link>
+      <router-link to="/drawer">Drawer</router-link> |
+      <router-link to="/simple">Simple</router-link>
     </div>
     <transition name="slide-fade" mode="out-in">
       <router-view/>
@@ -59,6 +60,16 @@ button {
   padding: 10px;
   margin: 0 auto;
   margin-top: 20px;
+}
+
+.card {
+  display: block;
+  margin: 0 auto 0 auto;
+  height: 6.5em;
+  width: 6.5em;
+  border-radius: 1%;
+  background-color: #16c0b0;
+  box-shadow: 0.08em 0.03em 0.4em #ababab;
 }
 
 /*** TRANSITIONS ***/

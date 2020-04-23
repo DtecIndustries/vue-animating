@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Modal from '../views/Modal.vue'
 import List from '../views/List.vue'
 import Drawer from '../views/Drawer.vue'
+import Simple from '../views/Simple.vue'
 
 Vue.use(VueRouter)
 
@@ -21,6 +22,11 @@ Vue.use(VueRouter)
     path: '/drawer',
     name: 'Drawer',
     component: Drawer
+  },
+  {
+    path: '/simple',
+    name: 'Simple',
+    component: Simple
   }
 ]
 
